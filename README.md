@@ -4,22 +4,19 @@ This repository provides code for basic speech deepfake detection.
 
 ## Environment Setup
 
-### Clone Fairseq
 Clone the specific version of Fairseq required for this project:
-[Fairseq Repository (Commit a540213)](https://github.com/pytorch/fairseq/tree/a54021305d6b3c4c5959ac9395135f63202db8f1)
+[Fairseq Repository](https://github.com/pytorch/fairseq/tree/a54021305d6b3c4c5959ac9395135f63202db8f1)
 
-### Install Fairseq
 Install Fairseq in editable mode:
 ```bash
+cd fairseq
 pip install --editable ./
 ```
 
-### Install Dependencies
 Install all required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ## Data Preparation
 
